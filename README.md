@@ -7,7 +7,7 @@
 ## 문제 archive
 > 출처: [Baekjoon Online Judge](https://www.acmicpc.net)
 ### stack 스택
-- [ ] [스택](boj.ma/10828)
+- [ ] [스택](https://boj.ma/10828)
 - [ ] [스택2](boj.ma/28278)
 - [ ] [스택 수열](boj.ma/1874)
 - [ ] [괄호](boj.ma/9012)
