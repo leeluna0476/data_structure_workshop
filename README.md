@@ -13,11 +13,13 @@
 - [ ] [괄호](https://boj.ma/9012)
 - [ ] [후위 표기식](https://boj.ma/1918)
 ### recurse 순환/재귀
+- [ ] [재귀의 귀재](https://boj.ma/25501)
 - [ ] [하노이 탑 이동 순서](https://boj.ma/11729)
 ### queue 큐
 - [ ] [큐](https://boj.ma/10845)
 - [ ] [큐2](https://boj.ma/18258)
 - [ ] [카드 1](https://boj.ma/2161)
 - [ ] [카드 2](https://boj.ma/2164)
+- [ ] [피보나치 수 4](https://boj.ma/10826)
 - [ ] [식당 입구 대기 줄](https://boj.ma/26042)
 - [ ] [회전초밥](https://boj.ma/28107)
