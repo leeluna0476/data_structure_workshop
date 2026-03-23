@@ -20,7 +20,7 @@
 - [ ] [큐2](https://boj.ma/18258)
 - [ ] [카드 1](https://boj.ma/2161)
 - [ ] [카드 2](https://boj.ma/2164)
-- [ ] [피보나치 수 4](https://boj.ma/10826)
+- [ ] [피보나치 수 2](https://boj.ma/2748)
 - [ ] [식당 입구 대기 줄](https://boj.ma/26042)
 - [ ] [회전초밥](https://boj.ma/28107)
 ### DFS && BFS
