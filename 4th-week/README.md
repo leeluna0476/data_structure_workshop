@@ -3,7 +3,9 @@
 - Queue
 
 # Mission
+- Solve at least 2 problems from each category.
 - 아래 문제들 중 카테고리 별로 2개 이상 풀기.
+
 **[Stack]**
 - 10828	스택
 - 1874	스택 수열
