@@ -23,7 +23,7 @@ void init_dequeue(dequeue_t *dq);
 int is_empty_dequeue(dequeue_t *dq);
 int is_full_dequeue(dequeue_t *dq);
 
-void add_node(dequeue_t *dq, node_t *n);
+void link_node(dequeue_t *dq, node_t *n);
 void unlink_node(node_t *n);
 
 void add_front(dequeue_t *dq, Element e);
@@ -141,7 +141,7 @@ int is_full_dequeue(dequeue_t *dq) {
 	return 0;
 }
 
-void add_node(dequeue_t *dq, node_t *n) {
+void link_node(dequeue_t *dq, node_t *n) {
 	if (is_empty_dequeue(dq)) {
 		n->back = n;
 		n->front = n;
@@ -161,7 +161,7 @@ void add_node(dequeue_t *dq, node_t *n) {
 // n3<->n2<->n1(rear)<->n3
 void add_front(dequeue_t *dq, Element e) {
 	node_t *n = create_node(e);
-	add_node(dq, n);
+	link_node(dq, n);
 }
 
 // n1(rear)
@@ -169,7 +169,7 @@ void add_front(dequeue_t *dq, Element e) {
 // n1<->n2<->n3(rear)<->n1
 void add_rear(dequeue_t *dq, Element e) {
 	node_t *n = create_node(e);
-	add_node(dq, n);
+	link_node(dq, n);
 	dq->rear = n;
 }
 
