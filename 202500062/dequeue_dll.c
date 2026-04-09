@@ -127,7 +127,6 @@ Element destroy_node(node_t *node) {
 	return data;
 }
 
-
 void init_dequeue(dequeue_t *dq) {
 	dq->rear = NULL;
 }
